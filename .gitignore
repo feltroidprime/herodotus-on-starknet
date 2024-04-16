@@ -1,6 +1,7 @@
 target
 .DS_Store
-
+venv
+.env
 l1/broadcast/**
 
 .snfoundry_cache

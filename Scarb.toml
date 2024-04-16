@@ -10,13 +10,16 @@ casm = true
 # See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest
 
 [dependencies]
-starknet = "2.2.0"
-cairo_lib = { git = "https://github.com/HerodotusDev/cairo-lib.git", branch = "update-cairo" }
+starknet = "2.6.3"
+cairo_lib = { git = "https://github.com/HerodotusDev/cairo-lib.git", branch="update-cairo"}
 snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.20.1" }
+alexandria_merkle_tree = {git = "https://github.com/keep-starknet-strange/alexandria.git", tag="cairo-v2.6.0"}
 
 [tool.snforge]
 exit_first = true
 
+[tool.hints]
+definitions = "hints/service.proto" # path to service definitions
 # Default profile
 [tool.sncast]
 account = "herodotus"

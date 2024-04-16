@@ -2,6 +2,11 @@
 version = 1
 
 [[package]]
+name = "alexandria_merkle_tree"
+version = "0.1.0"
+source = "git+https://github.com/keep-starknet-strange/alexandria.git?tag=cairo-v2.6.0#946e6e2f9d390ad9f345882a352c0dd6f02ef3ad"
+
+[[package]]
 name = "cairo_lib"
 version = "0.2.0"
 source = "git+https://github.com/HerodotusDev/cairo-lib.git?branch=update-cairo#c00222c907cbfd381d28749a2dc2fab0eac6beae"
@@ -10,6 +15,7 @@ source = "git+https://github.com/HerodotusDev/cairo-lib.git?branch=update-cairo#
 name = "herodotus_eth_starknet"
 version = "0.1.0"
 dependencies = [
+ "alexandria_merkle_tree",
  "cairo_lib",
  "snforge_std",
 ]
