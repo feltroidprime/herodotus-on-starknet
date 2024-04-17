@@ -11,9 +11,14 @@ casm = true
 
 [dependencies]
 starknet = "2.6.3"
-cairo_lib = { git = "https://github.com/HerodotusDev/cairo-lib.git", branch="update-cairo"}
-snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.20.1" }
-alexandria_merkle_tree = {git = "https://github.com/keep-starknet-strange/alexandria.git", tag="cairo-v2.6.0"}
+cairo_lib = { git = "https://github.com/feltroidprime/cairo-lib.git", rev="eaeecf3"}
+# snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.20.1" }
+alexandria_merkle_tree = {git = "https://github.com/keep-starknet-strange/alexandria.git", rev="fe337ab"}
+
+
+[dev-dependencies]
+snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.21.0" }
+
 
 [tool.snforge]
 exit_first = true

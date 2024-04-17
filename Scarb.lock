@@ -4,12 +4,12 @@ version = 1
 [[package]]
 name = "alexandria_merkle_tree"
 version = "0.1.0"
-source = "git+https://github.com/keep-starknet-strange/alexandria.git?tag=cairo-v2.6.0#946e6e2f9d390ad9f345882a352c0dd6f02ef3ad"
+source = "git+https://github.com/keep-starknet-strange/alexandria.git?rev=fe337ab#fe337ab079a2837c391932bdc702351d6798366a"
 
 [[package]]
 name = "cairo_lib"
 version = "0.2.0"
-source = "git+https://github.com/HerodotusDev/cairo-lib.git?branch=update-cairo#c00222c907cbfd381d28749a2dc2fab0eac6beae"
+source = "git+https://github.com/feltroidprime/cairo-lib.git?rev=eaeecf3#eaeecf310ec8f5b2484f7ee17fbf6b6d2c216bf1"
 
 [[package]]
 name = "herodotus_eth_starknet"
@@ -22,5 +22,5 @@ dependencies = [
 
 [[package]]
 name = "snforge_std"
-version = "0.20.1"
-source = "git+https://github.com/foundry-rs/starknet-foundry.git?tag=v0.20.1#fea2db8f2b20148cc15ee34b08de12028eb42942"
+version = "0.21.0"
+source = "git+https://github.com/foundry-rs/starknet-foundry.git?tag=v0.21.0#2996b8c1dd66b2715fc67e69578089f278a46790"
